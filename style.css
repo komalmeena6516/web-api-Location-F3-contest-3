@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.btns {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+
+}
+
+button {
+    border: 2px solid black;
+    padding: 1%;
+    font-size: 23px;
+    /* margin: 5px auto; */
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(7, 55, 21);
+    background-color: rgb(34, 223, 163);
+    cursor: pointer;
+
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px rgb(63, 6, 78);
+    background-color: blueviolet;
+}
+
+#map {
+    height: 500px;
+    margin: 10px auto;
+}
